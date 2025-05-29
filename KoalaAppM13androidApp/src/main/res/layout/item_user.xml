@@ -1,0 +1,70 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/surface_light"
+    app:strokeColor="@color/card_shadow"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Ícono de usuario -->
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_user"
+            android:contentDescription="Ícono de usuario"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Texto que muestra el nombre de usuario -->
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:text="Usuario"
+            android:textColor="@color/text_primary"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Botón de edición -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEdit"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Editar"
+            android:textColor="@color/surface_light"
+            app:backgroundTint="@color/secondary_color"
+            app:cornerRadius="12dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginStart="10dp"
+            app:iconPadding="8dp" />
+
+        <!-- Botón de eliminación -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDelete"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Eliminar"
+            android:textColor="@color/surface_light"
+            app:backgroundTint="@color/error"
+            app:cornerRadius="12dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginStart="10dp"
+            app:iconPadding="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

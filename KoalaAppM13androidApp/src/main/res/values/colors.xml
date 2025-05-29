@@ -1,0 +1,14 @@
+<resources>
+    <color name="primary_color">#3A3A6A</color> <!-- Azul oscuro moderno -->
+    <color name="secondary_color">#6C63FF</color> <!-- Lila vibrante -->
+    <color name="accent_color">#00CFFF</color> <!-- Celeste acento -->
+    <color name="background_light">#F8FAFF</color> <!-- Fondo muy claro -->
+    <color name="surface_light">#FFFFFF</color> <!-- Blanco -->
+    <color name="text_primary">#23235B</color> <!-- Texto principal -->
+    <color name="text_secondary">#6B7280</color> <!-- Texto secundario -->
+    <color name="success">#4ADE80</color> <!-- Verde éxito -->
+    <color name="warning">#FACC15</color> <!-- Amarillo advertencia -->
+    <color name="error">#F87171</color> <!-- Rojo error -->
+    <color name="light_gray">#F3F4F6</color> <!-- Gris claro -->
+    <color name="card_shadow">#E0E7FF</color> <!-- Sombra suave -->
+</resources>
